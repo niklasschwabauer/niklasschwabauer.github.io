@@ -82,6 +82,9 @@
   max-height: 85svh;
   object-fit: contain;
 }
+.hero__img--wide {
+  max-width: 800px;
+}
 
 .chapter {
   display: flex;
