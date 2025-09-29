@@ -37,11 +37,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 112px;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 @media (max-width: 1279px) {
   body {
     gap: 64px;
   }
+}
+h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 main {
@@ -76,6 +84,7 @@ a {
   scroll-margin-top: 76px;
   position: relative;
 }
+
 
 .button {
   padding: 12px 24px;
