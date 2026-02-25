@@ -1,0 +1,248 @@
+<!Doctype html>
+<html lang="de">
+  <head>
+    <!--character encoding, viewport & title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwabauer &ndash; Zeichnung</title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="css/technical-drawing.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item header__item--brand">
+            <h5>
+              <a href="../">
+                <span class="brand-full">Niklas Schwabauer</span>
+                <span class="brand-short">Schwabauer</span>
+              </a>
+            </h5>
+          </li>
+          <li class="header__item header__item--menu">
+            <ul class="header__submenu">
+              <li class="header__submenu-item"><a href="../personal/">Profil</a></li>
+              <li class="header__submenu-item"><a href="../projects/">Projekte</a></li>
+              <li class="header__submenu-item"><a href="../blog/">Blog</a></li>
+              <li class="header__submenu-item"><a href="../contact/">Kontakt</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="personal" class="main" role="main">
+      <section class="hero">
+        <div class="hero__content">
+          <div class="hero__headline"><p>Technische Zeichnung</p></div>
+          <div class="hero__text">
+            <div class="hero__text-line">
+              <p>Everything should be made as simple as possible,</p>
+            </div>
+            <div class="hero__text-line">
+              <p>but not simpler.</p>
+            </div>
+            <div class="hero__text-line hero__text-line--italic">
+              <p>&ndash; Albert Einstein</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="img/drawing-TZ.png" alt="drawing" class="hero__img hero__img--wide">
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-1">
+        <div class="chapter__headline"><p>Rotorbremsansteuerung &ndash; Normgerechte technische Zeichnung</p></div>
+        <div class="chapter__subhead">
+          <p>Im Rahmen des Moduls Darstellungstechnik im Flugzeugbau entstand eine vollständig normgerechte technische Zeichnung einer mechanischen Rotorbremsansteuerung für einen Hubschrauber. 
+            Ziel der Aufgabe war die konstruktive Ausarbeitung und zeichnerische Darstellung einer Baugruppe bestehend aus Lagerbock, Welle, Hebel, Gabel und Schlitten. Grundlage bildete eine vereinfachte Rotorbremsmechanik, wie sie beispielsweise im Rettungshubschrauber eingesetzt wird.</p>
+          <p>Im Mittelpunkt stand weniger die freie Konstruktion als vielmehr die normgerechte technische Ausarbeitung einer fertigungstauglichen Zeichnung. Neben der Modellierung der Einzelteile wurde eine vollständige Zusammenbauzeichnung mit Passungen, Toleranzen, Normteilen und Stückliste erstellt.</p>
+          <p>Die Konstruktion und Zeichnungsableitung erfolgte vollständig in Siemens NX, während die verwendeten Luftfahrtnormen über die Normendatenbank Nautos recherchiert wurden.</p>
+        </div>
+      </section>
+
+      <section class="image">
+        <img src="img/drawing-angle.png" alt="model-CAD" class="img img__drawing-angle">
+      </section>
+
+      <section class="chapter" id="chapter-2">
+        <div class="chapter__headline"><p>Konstruktiver Aufbau</p></div>
+        <div class="chapter__subhead">
+          <p>Die Baugruppe besteht aus einem Lagerbock, in dem eine Welle drehbar gelagert ist. Auf der Welle sitzt ein Hebel, über den die Bewegung eingeleitet wird. Die Drehbewegung wird über eine Gabel in eine translatorische Bewegung eines Schlittens umgesetzt, der in einer Führung im Lagerbock läuft.</p>
+          <p>Der Lagerbock bildet das zentrale Bauteil und dient als Montagebasis. Die Welle wird von einer Seite eingeschoben und liegt mit ihrem Ende an der gegenüberliegenden Lagerlasche an. 
+            Dadurch werden die Bohrungen der Passschraubenverbindung eindeutig positioniert, während eine axiale Verschiebung nach der Montage ausgeschlossen ist</p>
+          <p>Die Bauteile wurden in logischer Reihenfolge konstruiert: zunächst der Lagerbock als Referenzgeometrie, anschließend Welle, Hebel und Gabel sowie zuletzt der Schlitten. Aus mehreren Teilbaugruppen entstand anschließend die vollständige Baugruppe, aus der die Zeichnungsableitung erstellt wurde.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-3">
+        <div class="chapter__headline"><p>Werkstoffe und Normteile</p></div>
+        <div class="chapter__subhead">
+          <p>Für die meisten Bauteile wurde die Aluminiumlegierung 3.4365 (EN AW-7075) verwendet. Dieser hochfeste Werkstoff ermöglicht eine gewichtsoptimierte Konstruktion bei gleichzeitig hoher mechanischer Belastbarkeit.</p>
+          <p>Die Welle wurde aus 1.4542 (X5CrNiCuNb16-4) gefertigt, einem ausscheidungshärtbaren martensitischen Edelstahl (17-4PH), der sich durch hohe Festigkeit und gute Ermüdungsbeständigkeit auszeichnet.</p>
+          <p>Zur Lagerung der Welle wurden luftfahrtzugelassene Flanschbuchsen eingesetzt:</p>
+          <div class="bulletpoint" aria-labelledby="bulletpoint-heading">
+            <ul class="bulletpoint__list" role="list">
+              <li class="bulletpoint__item">
+                <span class="bulletpoint__desc">EN 2286-18 18 B R L (innere Lagerstelle)</span>
+              </li>
+              <li class="bulletpoint__item">
+                <span class="bulletpoint__desc">EN 2286-18 12 B R L (äußere Lagerstelle)</span>
+              </li>
+            </ul>
+          </div>
+          <p>Die Flansche wurden jeweils zur Mitte des Lagerbocks ausgerichtet. Dadurch kann bei unvermeidlichem Spiel und Vibration eine Reibung am Flansch stattfinden, was die Verschleißfestigkeit erhöht.</p>
+          <p>Zwischen äußerer Buchse und Sacklochboden wurde zusätzlich etwa 1 mm Montagefreiraum vorgesehen.</p>
+        </div>
+      </section> 
+
+      <section class="chapter" id="chapter-4">
+        <div class="chapter__headline"><p>Passungen und Toleranzen</p></div>
+        <div class="chapter__subhead">
+          <p>Die Lagerung der Buchsen im Lagerbock wurde als H7-Passung ausgeführt, wodurch eine sichere Positionierung bei gleichzeitig einfacher Montage erreicht wird.</p>
+          <p>Besondere Aufmerksamkeit erforderte die Welle:</p>
+          <div class="bulletpoint" aria-labelledby="bulletpoint-heading">
+            <ul class="bulletpoint__list" role="list">
+              <li class="bulletpoint__item">
+                <span class="bulletpoint__desc">Wellendurchmesser: 18f6</span>
+              </li>
+              <li class="bulletpoint__item">
+                <span class="bulletpoint__desc">Pressverband Hebel&ndash;Welle: 18S7</span>
+              </li>
+            </ul>
+          </div>
+          <p>Der Pressverband sorgt für eine spielfreie Drehmomentübertragung zwischen Hebel und Welle.</p>
+          <p>Die kritischste Maßkette betraf jedoch die axiale Länge der Welle. Da die Welle im Lagerbock anschlägt und der Hebel anschließend aufgepresst wird, ist ihre Position praktisch festgelegt. 
+            Gleichzeitig muss die Verbindung aus Welle, Gabel und Schlitten ausreichend Spiel für die Montage besitzen, ohne die Führung des Schlittens zu beeinträchtigen.</p>
+          <p>Der Schlitten besitzt nur geringe seitliche Bewegungsfreiheit in der Führung, während gleichzeitig ein Schlittenweg von 20 mm gewährleistet sein muss.</p>
+          <p>Die endgültige Maßwahl wurde so getroffen, dass ein kleiner zusätzlicher Freiraum für eine sichere Montage verbleibt.</p>
+        </div>
+      </section>
+
+      <section class="image">
+        <img src="img/drawing-TZ.png" alt="drawing-TZ" class="img img__drawing-TZ">
+      </section>
+
+      <section class="chapter" id="chapter-5">
+        <div class="chapter__headline"><p>Schraubenverbindungen und Sicherung</p></div>
+        <div class="chapter__subhead">
+          <p>Die Befestigung des Lagerbocks am Sockel erfolgt über vier Schrauben nach DIN 65261-05-024 E, die mit Sicherungsblechen nach EN 2948-050 gegen Selbstlösen gesichert wurden. Diese Lösung eignet sich besonders für randnahe Verschraubungen.</p>
+          <p>Die beweglichen Verbindungen wurden als Passschraubenverbindungen ausgeführt:</p>
+          <div class="bulletpoint" aria-labelledby="bulletpoint-heading">
+            <ul class="bulletpoint__list" role="list">
+              <li class="bulletpoint__item">
+                <span class="bulletpoint__desc">Welle&ndash;Gabel: DIN 65339 K 05 020 Z</span>
+              </li>
+              <li class="bulletpoint__item">
+                <span class="bulletpoint__desc">Gabel&ndash;Schlitten: DIN 65526 K 05 036 T</span>
+              </li>
+            </ul>
+          </div>
+          <p>Zur Sicherung wurden Kronenmuttern DIN 65246-05 E mit Splinten EN 2367-12 014 verwendet. Diese Sicherungsart entspricht den typischen Anforderungen im Luftfahrtbereich und gewährleistet eine zuverlässige Verbindung auch unter Vibration.</p>
+        </div>
+      </section>
+
+      <section class="image">
+        <img src="img/drawing-back.png" alt="drawing-CAD" class="img img__drawing-back">
+      </section>
+
+      <section class="chapter" id="chapter-6">
+        <div class="chapter__headline"><p>Zeichnungsableitung in Siemens NX</p></div>
+        <div class="chapter__subhead">
+          <p>Der anspruchsvollste Teil des Projekts war die normgerechte Zeichnungsableitung in Siemens NX.</p>
+          <p>Während die Konstruktion selbst vergleichsweise geradlinig verlief, erforderte die korrekte Darstellung einen deutlich höheren Aufwand. Ansichten, Schnitte und Bemaßungen mussten exakt nach Norm ausgeführt werden. 
+            Häufig war es notwendig, Darstellungen manuell anzupassen oder Elemente auszublenden, um eine normgerechte Zeichnung zu erhalten.</p>
+          <p>Die Zeichnung entstand schrittweise über Einzelteilzeichnungen, Zusammenbauzeichnung, Stückliste und Normteilbeschriftung.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-7">
+        <div class="chapter__headline"><p>Fazit</p></div>
+        <div class="chapter__subhead">
+          <p>Dieses Projekt stellte meine erste umfassende Erfahrung mit normgerechter Konstruktion im Luftfahrtbereich dar. Im Gegensatz zu früheren Projekten lag der Schwerpunkt hier nicht auf der Fertigung, sondern auf der exakten technischen Definition aller Bauteile.</p>
+          <p>Die intensive Auseinandersetzung mit Normen, Passungen und Montagebedingungen vermittelte ein deutlich realistischeres Bild davon, wie technische Konstruktion im industriellen Umfeld durchgeführt wird.</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-8">
+        <div class="chapter__headline"><p>Downloads</p></div>
+
+        <div class="chapter__container-downloads">
+          <div class="chapter__container-text">
+            <p>Die vorliegende Zeichnung zeigt die vollständige normgerechte Ausarbeitung der Baugruppe einschließlich aller Passungen, Toleranzen und Normteile. Die PDF-Datei steht hier als Download zur Verfügung.</p>
+          </div>
+          <div class="chapter__cta-links">
+            <a class="button button--border" href="downloads/TZ.pdf">Zeichnung</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-meta">
+        <div class="page-meta__container">
+          <span class="page-meta__author">© 2026 Niklas Schwabauer</span>
+          <span class="page-meta__created">Erstellt am: 25. Februar 2026</span>
+          <span class="page-meta__updated">Zuletzt aktualisiert: 25. Februar 2026</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__layout">
+        <div class="footer__intro">
+          <div class="footer__intro-quote">
+            <p>"Forschung betreibe ich dann, wenn ich nicht weiß, was ich tue.”</p>
+          </div>
+          <div class="footer__intro-author"><p>Wernher von Braun</p></div>
+        </div>
+        <div class="footer__name"><p>Niklas Schwabauer</p></div>
+        <div class="footer__content">
+          <div class="footer__section">
+            <div class="footer__headline"><p>Links</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="../">Homepage</a></li>
+              <li class="footer__menu-link"><a href="../projects/">Projekte</a></li>
+              <li class="footer__menu-link"><a href="../personal/">Profil</a></li>
+              <li class="footer__menu-link"><a href="../blog/">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Socials</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="https://github.com/niklasschwabauer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li class="footer__menu-link"><a href="https://www.instagram.com/0815_niklas/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li class="footer__menu-link"><a href="https://x.com/0815niklas_" target="_blank" rel="noopener noreferrer">X</a></li>
+              <li class="footer__menu-link"><a href="https://www.chess.com/member/0815Niklas" target="_blank" rel="noopener noreferrer">Chess.com</a></li>
+              <li class="footer__menu-link"><a href="https://www.youtube.com/@0815niklas" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="footer__section footer__wide">
+            <div class="footer__headline"><p>Newsletter</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="#">Jetzt anmelden!</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <div class="footer__headline"><p>Kontakt</p></div>
+            <ul class="footer__menu">
+              <li class="footer__menu-link"><a href="mailto:niklasschwabauer@gmail.com">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
